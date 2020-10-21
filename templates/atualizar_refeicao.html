@@ -1,0 +1,21 @@
+{block name=crud}
+	<form  method = "post" action = "index2.php">
+	
+			<h5>Digite a data da refeição que deseja alterar!</h5>
+			<br>
+			<div>
+				<label>Data</label>
+				<input type="date" name="data" />
+			</div>
+			<br>
+			<h6>Digite os dados que deseja atualizar!!</h6>
+			<br>
+			<div>
+				<label>Refeição</label>
+				<input type="text" name="refeicao" />
+				<label>Sobremesa</label>
+				<input type="text" name="sobremesa" />
+			</div>
+		<input type="submit" value ="Atualizar" name="atualizarRefeicao" class="btn btn-light">
+	</form>
+{/block}	

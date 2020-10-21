@@ -1,0 +1,22 @@
+body{
+	position: relative;
+	margin-top: 20px;
+	background-color: F0FFF0; 
+}
+
+h2{
+	margin-top: 50px;
+	color: rgb(6,124,96);
+}
+
+div{
+	display: block;
+	margin-bottom: 20px;
+}
+a{
+	display: block;
+}
+
+#menu{
+	display: inline-block;
+}

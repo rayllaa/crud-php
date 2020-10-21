@@ -1,0 +1,29 @@
+{block name=crud}
+		
+	<form method = "post" action = "index2.php">
+	
+		<h5>Digite o usuário que deseja alterar! <i>(login de usuário)</i></h5>
+		<br>
+		<div>
+			<label>Usuário</label>
+			<input type="text" name = "usuarioAtualizar" required>
+			
+		</div>		
+		<br>
+		<h6>Digite os dados que deseja atualizar!!</h6>
+		<br>
+		<div>		
+			<label>Nome</label>
+			<input type="text" name = "nome" >
+			<label>CPF</label>
+			<input type="text" name = "cpf" >
+		</div>		
+		<div>
+			<label>E-mail</label>
+			<input type="text" name = "email">
+			
+			<input type="submit" value ="Atualizar" name="atualizarUsuario"  class="btn btn-light">
+		</div>	
+
+	</form>	
+{/block}

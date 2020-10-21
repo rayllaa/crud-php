@@ -1,0 +1,28 @@
+{block name=crud}
+
+	<h5>Preencha os campos para realizar o cadastro! </h5>
+	<br>
+	<form method = "post" action = "index2.php">
+		<div>
+			<label>Usuário</label>
+			<input type="text" name = "usuario" required>
+			
+			<label>Nome</label>
+			<input type="text" name = "nome" required>
+		</div>		
+		<div>
+			<label>CPF</label>
+			<input type="text" name = "cpf" required>
+			
+			<label>E-mail</label>
+			<input type="text" name = "email" >
+		</div>	
+
+		<div>
+			<label>Senha</label>
+			<input type="password" name = "senha" required>
+			
+			<input type="submit" value ="Cadastrar" name="cadastrarUsuario"  class="btn btn-light">
+		</div>	
+	</form>	
+{/block}

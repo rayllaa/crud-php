@@ -1,0 +1,20 @@
+{block name=crud}
+
+	<h6>Preencha os campos para realizar o cadastro da refeição!</h6>
+	<br>
+	<form  method = "post" action = "index2.php">
+		<div>
+			<label>Data</label>
+			<input type="date" name="data" />
+			<label>Dia da Semana</label>
+			<input type="text" name="dia_semana" />	
+		</div>
+		<div>
+			<label>Refeição</label>
+			<input type="text" name="refeicao" />
+			<label>Sobremesa</label>
+			<input type="text" name="sobremesa" />
+		</div>
+	<input type="submit" value ="Cadastrar" name="cadastrarRefeicao" class="btn btn-light">
+	</form>
+{/block}

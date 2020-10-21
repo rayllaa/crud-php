@@ -1,0 +1,40 @@
+
+{block name=crud}
+	<table class="table">
+	  <thead>
+		<tr>
+		  <th scope="col">Usuário</th>
+		  <th scope="col">Nome</th>
+		  <th scope="col">CPF</th>
+		  <th scope="col">E-mail</th>
+		</tr>
+	  </thead>
+
+	  <tbody>
+	  
+		<tr>
+		  <td> raylla</td>
+		  <td> Raylla Araújo</td>
+		  <td> 548.455.989-01</td>
+		  <td> raylla@gmail.com</td>
+		</tr>
+		
+		<tr>
+		  <td> joaninha12</td>
+		  <td> Joana Silva</td>
+		  <td> 123</td>
+		  <td> joana@gmail.com</td>
+		</tr>
+		<!--{foreach $listas as $lista} 
+			<tr>
+			  <td> {$lista['usuario']}</td>
+			  <td> {$lista['nome']}</td>
+			  <td> {$lista['cpf']}</td>
+			  <td> {$lista['email']}</td>
+			  <td> Bruno</td>
+			  <td>@mdo</td>
+			</tr>
+		{/foreach}-->
+	  </tbody>
+	</table>	
+{/block}
